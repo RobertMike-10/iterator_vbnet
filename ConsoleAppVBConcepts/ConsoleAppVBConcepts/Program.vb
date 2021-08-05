@@ -47,6 +47,31 @@ Module Program
             Console.WriteLine(value)
         Next
 
+
+        Dim person1 = New Persona("Zandiel Martínez") With
+            {
+            .Direccion = "calle real #123",
+            .Edad = 1,
+            .Estatura = 0.8,
+            .Peso = 12.78
+            }
+
+        Dim person2 = New Persona("Beatriz Martínez", 24) With
+            {
+            .Direccion = "calle real #123",
+            .Estatura = 1.68,
+            .Peso = 70.6,
+            .Telefono = "232424567565"
+            }
+
+        Dim person3 = New Persona() With {
+            .Nombre = "Esmeralda Ramírez",
+            .Edad = 48,
+            .Peso = 76.9,
+            .Estatura = 1.69,
+            .Telefono = "1121212121"
+            }
+
     End Sub
 
 
